@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Trevor White</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+      .col-sm-4 {
+          text-align: center;
+      }
+      .col-sm-8 {
+          text-align: center;
+      }
+      .row {
+          padding: 10%;
+          margin-bottom:-10%;
+      }
+      h1 {
+          font-size: 4em;
+      }
+      #test {
+          padding: 30%;
+          padding-top: 5%;
+      }
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .bg-1 { 
+        background-color: rgb(0, 117, 72); /* Green */
+        color: #ffffff;
+    }
+    .bg-2 {
+        background-color: rgb(0, 50, 80); /* Blue */
+        color: #ffffff;
+        
+    }
+    .bg-3 {
+        background-color: white;
+        color: rgb(255, 255, 255);
+        /*text-shadow: 2px 2px #000000;*/
+        background-size: cover; /* or contain depending on what you want */
+        background-position: center center;
+        background-repeat: no-repeat;
+        text-align:center;   
+    }
+    .bg-4 { 
+        background-color: rgb(255, 255, 255); /* Green */
+        color: rgb(0, 39, 24);
+        font-family: 'Montserrat', sans-serif;
+        
+    }
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Me">Me</a></li>
+        <li><a href="#Portfolio">Portfolio</a></li>
+        <li><a href="#Resume">Resume</a></li>
+        <li><a href="#About">About</a></li>
+      </ul>
+    </div>
+</nav>
+<div class="container-fluid bg-3 text-center" style="background-image: url(IMG_1916.jpg);" id = "Home">
+    <p><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+    <h1>Trevor White</h1>
+    <p><br><br><br><br><br><br><br><br><br><br></p>
+</div>
+<div class = "container-fluid bg-4 text-center" id = "Me">
+  <p><br><br><br><br><br></p>
+  <h2>Trevor White</h2>
+  <img src="sl_headshots_1509.jpg" alt="Handsome Guy" height = "200" width = "(.75*200)" class="img-circle">
+  <h3>Computer Science and Engineering Student at The Ohio State University <br><br><br><br><br> 
+    <br><br><br><br><br></h3>
+  
+</div>
+<div class = "container-fluid bg-4 text-center" id = "Portfolio">
+  <h3><br><br><br><br>Portfolio</h3>
+  <h5>You're pretty much looking at it, so far.<br> <br></h5>
+  
+  <h5>Other than this I have created a calculator in Java</h5>
+  <h5>which can be found on my resume. <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br></h5>
+</div>
+<div class = "container-fluid bg-4 text-center" id = "Resume">
+    <h3><br><br><br>Resume</h3>
+    <object data="Resume.pdf" type="application/pdf" width="75%" height="500px"> 
+        <p>It appears you don't have a PDF plugin for this browser.
+         No biggie... you can <a href="Resume.pdf">click here to
+        download the PDF file.</a></p>  
+    </object>
+</div>
+<div class = "container-fluid bg-4 text-center" id = "About">
+    <h1><br><br><br></h1>
+    <h3>About</h3>
+    
+    
+    <div class = "container-fluid">
+        <div class="row">
+            <div class="col-sm-4" "><img src="machine.png" alt="Machine"  class="img" height="90" width = "90"></div>
+            <div class="col-sm-8" "><h5>Machines</h5> <p>Machines, in every sense of the word, have always
+                                                                interested me.  Programming allows me to feed that interest in an environment where
+                                                                parts dont wear out and I can sit at a desk.</p>
+            </div> 
+        </div>
+    <div class="row">
+            <div class="col-sm-4"><img src="blockO.jpg" alt="BlockO"  class="img" height="75" width = "65"></div>
+            <div class="col-sm-8"><h5>Ohio State University</h5> <p>Currently pursuing a bachelors</p></div>
+          </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4" "><img src="shoremen.jpg" alt="Anchor"  class="img" height="90" width = "90"></div>
+        <div class="col-sm-8" "><h5>Avon Lake High School</h5> <p>Graduated in 2017</p></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4" "><img src="hockey.png" alt="Hockey"  class="img" height="90" width = "90"></div>
+        <div class="col-sm-8" "><h5>Hockey</h5> <p>Assistant Captain on the Avon Lake High School Varsity Team</p></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4" "><img src="bicycle.png" alt="Bicycle"  class="img" height="90" width = "90"></div>
+        <div class="col-sm-8" "><h5>Bicycles</h5> <p>Bicycles have always influenced my life</p></div>
+    </div>
+    
+</div>
+</div>
+
+</body>
+</html>
